@@ -1,0 +1,26 @@
+.breadcrumbs {
+  background-color: #2f5356;
+  color: #fff;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin: 5px 5px 80px;
+}
+
+.breadcrumbs__link {
+  margin-right: 8px;
+}
+
+.breadcrumbs__link:not(:last-child):after {
+  content: "/";
+  position: relative;
+  left: 4px;
+}
+
+.img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  filter: brightness(0) invert(1);
+  margin: 0 5px 0;
+}

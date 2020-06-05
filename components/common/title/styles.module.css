@@ -1,0 +1,43 @@
+.title {
+    font-weight: bold;
+    position: relative;
+    margin: 0 -25px 5px;
+}
+
+.title:before {
+    content: "";
+    height: 1px;
+    width: 10px;
+    right: -16px;
+    top: 10px;
+    display: block;
+    background-color: #E9EBEC;
+    position: absolute;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/iconmonstr-minus-circle-thin.svg");
+    background-color: white;
+    background-size: 15px 15px;
+    height: 15px;
+    width: 15px;
+    right: -32px;
+    top: 3px;
+    position: absolute;
+    z-index: 1;
+}
+
+.title__no-width {
+    width: 0;
+}
+
+.title__no-width:before {
+    right: -40px;
+    width: 15px
+}
+
+.title__no-width:after {
+    right: -57px;
+}

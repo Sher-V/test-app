@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.list {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.list__element {
+  display: flex;
+  height: 40px;
+  margin: 0 -25px;
+}
+
+.list__text {
+  width: 50%;
+}
+
+.list__element_left {
+  text-align: right;
+}
+
+.list__element_right {
+  margin-left: 50px;
+}
+
+.list__gray {
+  color: #c0c1c3;
+}
